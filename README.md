@@ -53,4 +53,30 @@
         
         
 ## Вебинар №2
+
+1. Полезные ссылки:
+    - Composer 
+        - https://getcomposer.org
+        - https://phpprofi.ru/blogs/post/52
+        - https://packagist.org
+    - Валидация данных
+        - http://laravel.su/docs/5.0/validation
+        - https://laravel.ru/docs/v5/validation
+        - https://github.com/ylabio/ylab.validation
+    - Необходимые библиотеки 
+        - https://packagist.org/packages/illuminate/validation
+        - https://packagist.org/packages/robmorgan/phinx
+    - Миграции https://phinx.org
+    
+2. Задание вебинара
+    - Изучить материал полезных ссылок
+    - Поставить себе через композер phinx
+    - Поставить себе через композер illuminate/validation
+    - Написать миграцию по созданию ИБ (phinx)
+        - Расширить информацию о пользователе, новыми свойствами: дата рождения (формат 01.01.1980), номер телефона 
+        (формат +79210000000), свойство список - город (варианты Москва, Санкт-Петербург, Казань)
+    - Установить git репу https://github.com/ylabio/ylab.validation (можно добавить в свою репу код модуля)
+    - Создать компонент добавления пользователя с валидацией
+    
+## Вебинар №3
     ...

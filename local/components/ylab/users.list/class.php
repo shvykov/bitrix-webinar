@@ -1,9 +1,17 @@
 <?php
 
+/**
+ * Class UsersListComponent
+ * Компонент вывода списка пользователей
+ */
 class UsersListComponent extends \CBitrixComponent
 {
+    /**
+     * @return mixed|void
+     */
     public function executeComponent()
     {
+        /** @global \CMain $APPLICATION */
         global $APPLICATION;
 
         $APPLICATION->RestartBuffer();
@@ -12,6 +20,9 @@ class UsersListComponent extends \CBitrixComponent
         $this->includeComponentTemplate();
     }
 
+    /**
+     * @return array
+     */
     protected function getUsersList()
     {
         return [

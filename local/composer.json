@@ -1,0 +1,14 @@
+{
+    "name": "romko/local",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Shvykov",
+            "email": "roman_shvykov@mail.ru"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.10.5",
+        "illuminate/validation": "5.4.*"
+    }
+}

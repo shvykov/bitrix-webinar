@@ -3,7 +3,7 @@ define('NOT_CHECK_PERMISSIONS', true);
 define('NO_AGENT_CHECK', true);
 
 $GLOBALS['DBType'] = 'mysql';
-$_SERVER['DOCUMENT_ROOT'] = realpath(__DIR__ . '/..');
+$_SERVER['DOCUMENT_ROOT'] = __DIR__ . '/..';
 
 include($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/prolog_before.php');
 
@@ -16,7 +16,7 @@ try {
     $DB->db_Conn = $oCon->getResource();
     $_SESSION['SESS_AUTH']['USER_ID'] = 1;
 
-    $arConfig = include realpath(__DIR__ . '/../bitrix/.settings.php');
+    $arConfig = include $_SERVER['DOCUMENT_ROOT'] . '/bitrix/.settings.php';
     $arConfigDB = $arConfig['connections']['value']['default'];
 
     return [

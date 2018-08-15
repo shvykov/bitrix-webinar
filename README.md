@@ -82,4 +82,20 @@
         - При успешном сохранении выводим соответствующее сообщение, в противном случае список ошибок
     
 ## Вебинар №3
-    ...
+1. Полезные ссылки:
+    - https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&INDEX=Y
+    - https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&CHAPTER_ID=04609&LESSON_PATH=3913.4609
+    - https://brainkit.ru/блог/1сбитрикс-пример-создания-модуля-d7
+    - https://ru.wikipedia.org/wiki/ORM
+2. Задание вебинара
+    - Изучить каркас модуля (ylab.webinar)
+    - Реализовать наследника [Bitrix\Main\Entity\DataManager](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=4803&LESSON_PATH=3913.5062.5748.4803#example) для таблицы `b_ylab_users` (Класс `YlabUsersTable`)
+    - Переписать компонент добавления и вывода пользователей - используя класс `YlabUsersTable`
+    - **Важно** если у Вас 1 компонент на эти операции, надо разделить на 2 разных
+    - Вынести общие методы для компонентов в `Helper`
+    - Подготовиться к собеседованию, изучив курс [Разработчик Bitrix Framework](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&INDEX=Y)
+    - **Важно** выполнить задание в точности так, как в описании.
+    
+3. Важная информация:
+    - Дата сдачи домашнего задания 27.08.2018 11:00
+    - При успешном прохождение финального домашнего задания будет назначено собеседование
